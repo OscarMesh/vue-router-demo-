@@ -1,8 +1,3 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
-</script>
-
 <template>
   <router-view></router-view>
 </template>
@@ -11,6 +6,7 @@ import TheWelcome from "./components/TheWelcome.vue";
 header {
   line-height: 1.5;
 }
+
 
 .logo {
   display: block;
